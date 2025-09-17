@@ -4,8 +4,7 @@
 
 #show: ieee.with(
   title: [Titulo],
-  abstract: [
-    // 150-250 words
+  abstract: [ // 150-250 words
     #lorem(150)
   ],
   authors: (
@@ -31,4 +30,6 @@
   ),
   bibliography: bibliography("refs.bib", full: true),
 )
+
+#include("secciones/planteamiento_problema.typ")
 
