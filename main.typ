@@ -1,35 +1,20 @@
-#import "charged-ieee.typ": ieee
+#import "./unsaac/unsaac.typ": src_block, src_file, tesis
 
-#set text(lang: "es")
-
-#show: ieee.with(
-  title: [Titulo],
-  abstract: [ // 150-250 words
-    #lorem(150)
-  ],
+#show: tesis.with(
+  title: ["#smallcaps([Usando Machine Learning en Redes Definidas por Software])"],
+  orientator: [Rony Villafuerte Serna],
   authors: (
-    (
-      name: "Alegria Sallo Daniel Rodrigo",
-      department: [Ing. Informatica y de Sistemas],
-      organization: [UNSAAC],
-      location: [Cusco, Peru],
-      email: "215270@unsaac.edu.pe",
-    ),
-    (
-      name: "Conde Sallo Johan Mihail",
-      department: [Ing. Informatica y de Sistemas],
-      organization: [UNSAAC],
-      location: [Cusco, Peru],
-      email: "215783@unsaac.edu.pe",
-    ),
+    "Daniel Rodrigo Alegria Sallo",
+    "Johan Mihail Conde Sallo",
   ),
-  index-terms: (
-    "Software Defined Networks",
-    "Artificial Inteligence",
-    "Machine Learning",
-  ),
-  bibliography: bibliography("refs.bib", full: true),
 )
 
-#include("secciones/planteamiento_problema.typ")
+#set page(margin: 2.54cm)
+
+#outline(title: "Tabla de Contenido")
+#pagebreak()
+
+= Antecedentes
+
+#include "secciones/planteamiento_problema.typ"
 
