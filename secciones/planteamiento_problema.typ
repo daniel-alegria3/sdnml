@@ -81,27 +81,15 @@ de servicio necesario, reduciendo al mismo tiempo el impacto negativo del uso re
 sobre los recursos de red compartidos.
 
 == Identificación del problema
-El problema se focaliza en la gestion ineficiente del ancho de banda en la red
-universitaria. Actualmente, los usuarios experimentan lentitud en la conexion durante
-horas pico, priorizacion inadecuada del trafico de red y ausencia de mecanismos de
-control inteligente que permitan garantizar un servicio estable y equitativo. Esta
-situación afecta directamente el rendimiento academico, debido a la perdida de tiempo
-por conexiones lentas; y limita el aprovechamiento de las herramientas tecnologicas
-necesarias para la formacion profesional.
+El problema se focaliza en la gestión ineficiente del ancho de banda en la red universitaria. Actualmente, los usuarios experimentan lentitud en la conexión durante horas pico, priorización inadecuada del tráfico de red y ausencia de mecanismos de control inteligente que permitan garantizar un servicio estable y equitativo. Esta situación afecta directamente el rendimiento académico, debido a la pérdida de tiempo por conexiones lentas; y limita el aprovechamiento de las herramientas tecnológicas necesarias para la formación profesional.
+
+Uno de los principales inconvenientes observados es la saturación de la red en horas pico, lo que ocasiona interrupciones constantes durante los laboratorios, las evaluaciones en línea y las reuniones académicas, afectando tanto a estudiantes como a docentes. A ello se suma la competencia desigual entre aplicaciones críticas y recreativas, ya que servicios de entretenimiento como streaming o videojuegos en línea consumen recursos que deberían estar disponibles para actividades académicas esenciales.
+
+Otro aspecto problemático es la falta de mecanismos dinámicos de priorización, dado que la asignación de ancho de banda se realiza de manera manual y no responde en tiempo real a los cambios de la demanda. Esto conlleva a un uso ineficiente de los recursos y a situaciones en las que actividades educativas se ven relegadas frente a usos recreativos.
+
+La situación se torna más crítica en la Facultad de Ingeniería Informática y de Sistemas, donde las prácticas y proyectos de los estudiantes dependen de una conectividad estable para descargar software, ejecutar simulaciones o acceder a repositorios en la nube. La inestabilidad de la red interrumpe estas actividades, generando retrasos en el aprendizaje y dificultades en el cumplimiento de los objetivos académicos.
+
+Además, la limitada calidad de conectividad repercute en la percepción institucional, ya que afecta la competitividad de la UNSAAC frente a otras universidades que cuentan con infraestructuras tecnológicas más modernas y adaptadas a las demandas actuales de la educación digital. Finalmente, se evidencia una ausencia de integración con tecnologías emergentes como las Redes Definidas por Software (SDN) y la Inteligencia Artificial (IA), herramientas que podrían ofrecer una gestión más inteligente, flexible y adaptativa del tráfico de red en beneficio de la comunidad universitaria.
 
 == Formulación del problema
-
-=== Problema general
-¿Como implementar un sistema de asignacion inteligente de ancho de banda en un entorno
-universitario que permita optimizar el uso de la red y priorizar actividades academicas
-frente a las recreativas?
-
-=== Sub problemas
-+ ¿Que tecnicas de control de trafico de red son mas adecuadas para un entorno
-  universitario?
-+ ¿Como determinar las prioridades de los distintos tipos de trafico (academico,
-  recreativo, administrativo)?
-+ ¿Que modelo de asignacion inteligente puede adaptarse mejor a las caracteristicas de
-  la red de la universidad?
-+ ¿De que manera puede evaluarse la mejora en la calidad del servicio tras la
-  implementacion del sistema?
+Crear un sistema de asignación inteligente de ancho de banda en un entorno universitario que optimice el uso de la red y priorice de manera automática las actividades académicas sobre las recreativas, garantizando así la calidad del servicio educativo y el adecuado aprovechamiento de los recursos tecnológicos.
