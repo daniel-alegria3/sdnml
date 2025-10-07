@@ -68,3 +68,98 @@ streaming). Los resultados experimentales demuestran que su sistema:
 En comparacion con los sistemas existentes basados en SDN, el modelo muestra hasta un
 30% de mejora en la utilizacion del ancho de banda y un indice de equidad (fairness
 indices) significativamente mayor entre las distintas clases de trafico.
+
+
+
+
+Maulana et al. (2024) @sdnrnmo2024 proporcionan evidencia tanto empírica como
+cualitativa de los beneficios tangibles de SDN (Software-Defined Networking) en
+comparación con las arquitecturas tradicionales. Utilizando configuraciones
+experimentales que presentan los controladores OpenDaylight y Ryu, el estudio encontró
+que SDN mejora significativamente múltiples métricas de rendimiento:
+
++ Mejora de QoS y Rendimiento: Se logra una reducción de la latencia de hasta el 40% y
+  un aumento del rendimiento (throughput) de aproximadamente el 15%. Esta mejora se debe
+  a que la centralización del control permite rutas y asignaciones de recursos más
+  eficientes, y la simplificación de los dispositivos de reenvío (forwarding devices)
+  reduce el tiempo de procesamiento de los paquetes.
+
++ Seguridad y Escalabilidad: SDN aborda desafíos críticos de operación al ofrecer una
+  respuesta a incidentes de seguridad un 40% más rápida gracias al aislamiento
+  automatizado y una mayor escalabilidad. Esto se demostró manteniendo un rendimiento
+  estable en 200 dispositivos, un escenario donde las redes tradicionales experimentaron
+  una caída de rendimiento del 40%.
+
++ Eficiencia y Agilidad: Estos resultados confirman que SDN provee una mayor agilidad en
+  la gestión de la red (Higher Network Agility) mediante la capacidad de programar y
+  modificar rápidamente las políticas. Además, su gestión optimizada de recursos también
+  sugiere una mejor eficiencia energética (Improved Energy Efficiency) a través de la
+  posible consolidación de equipos.
+
+
+Ye G., (2022) @rao2024dardrl, “DRL-Idle: A Deep Reinforcement Learning approach for
+efficient flow table management in SDN,” Universidad de Vigo / Elsevier B.V., España.
+Conclusiones:
+
+El uso de aprendizaje profundo por refuerzo (DRL) permite ajustar dinámicamente los
+valores de idle timeout de las reglas de flujo en redes SDN.
+
+Esta adaptación continua optimiza el uso de la memoria TCAM, reduciendo la necesidad de
+nuevas instalaciones de reglas y mejorando la eficiencia global del sistema.
+
+El modelo DRL-Idle logra un aumento promedio del 30 % en el rendimiento frente a los
+métodos tradicionales.
+
+// ORIGINAL: Comentario: Este trabajo servirá como antecedente metodológico,
+Este trabajo servirá como antecedente metodológico, ya que muestra cómo el DRL puede
+aprender y adaptarse dinámicamente a condiciones variables para optimizar recursos
+limitados, principio aplicable a la asignación inteligente de ancho de banda en nuestro
+proyecto.
+
+Autor no especificado (2023), “QoS-driven Routing Optimization in SDN using Deep
+Reinforcement Learning (DQS),” Universidad Tecnológica de Lisboa / Elsevier B.V.,
+Portugal. Conclusiones:
+
+El método DQS emplea un agente DRL con una función multiobjetivo que considera métricas
+de enlace y cola, mejorando la priorización del tráfico.
+
+El sistema mantiene la escalabilidad y reduce significativamente los tiempos de
+convergencia del enrutamiento en redes SDN complejas.
+
+Los resultados experimentales evidencian una reducción del 20 %–30 % en el retardo
+extremo a extremo, mejorando la calidad del servicio (QoS). Comentario: Este estudio
+constituye un antecedente técnico esencial, ya que integra aprendizaje profundo por
+refuerzo con optimización de QoS, demostrando la eficacia del DRL en la gestión dinámica
+del ancho de banda y tráfico de red, base conceptual directa para el desarrollo de
+nuestro modelo de asignación inteligente.
+
+
+
+Aguirre Sanchez L. P., Shen Y., Guo M. (2023) @aguirre2023dqs, “DQS: A QoS-driven routing optimization
+approach in SDN using Deep Reinforcement Learning,” Shanghai Jiao Tong University,
+China. El método DQS utiliza aprendizaje por refuerzo profundo (DRL) para optimizar
+rutas en redes SDN, priorizando el tráfico según métricas de enlace y cola.
+
+Logra mejorar la eficiencia de la red y mantener la escalabilidad reduciendo los tiempos
+de convergencia.
+
+En las pruebas realizadas con un prototipo basado en Docker y OpenFlow, se evidenció una
+reducción del 20–30 % en la latencia extremo a extremo frente a métodos tradicionales.
+Comentario: Este trabajo se considera un antecedente técnico directo, ya que aborda la
+optimización inteligente de la calidad de servicio (QoS) mediante DRL, principio
+fundamental para la asignación dinámica de ancho de banda en nuestro proyecto.
+
+Rao Z., Xu Y., Yao Y., Meng W. (2024) @rao2024dardrl, “DAR-DRL: A Dynamic Adaptive Routing Method Based
+on Deep Reinforcement Learning,” Technical University of Denmark, Dinamarca. Propone un
+modelo de enrutamiento adaptativo que combina aprendizaje profundo y refuerzo (DRL) con
+una arquitectura de grafos (LA-GNN) para representar estados de red dinámicos.
+
+Introduce una estrategia de enrutamiento salto a salto con funciones de recompensa que
+garantizan fiabilidad y evitan bucles o agujeros de ruta.
+
+Los resultados experimentales demuestran mejoras en retardo extremo a extremo, pérdida
+de paquetes y rendimiento bajo cambios topológicos y tráfico variable. Comentario: Este
+estudio constituye un antecedente metodológico relevante, ya que demuestra la capacidad
+del DRL para adaptarse a condiciones de red dinámicas y optimizar recursos de
+transmisión, base aplicable a la asignación inteligente y adaptativa de ancho de banda
+en redes modernas.
