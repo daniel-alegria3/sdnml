@@ -14,7 +14,10 @@
 #outline(title: "Tabla de Contenido")
 #pagebreak()
 
-= Antecedentes
-
+= Resumen
+#include "secciones/antecedentes.typ"
 #include "secciones/planteamiento_problema.typ"
+
+#pagebreak()
+#bibliography("refs.bib", full: true)
 
