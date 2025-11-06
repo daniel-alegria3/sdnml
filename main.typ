@@ -17,6 +17,8 @@
 = Resumen
 #include "secciones/antecedentes.typ"
 #include "secciones/planteamiento_problema.typ"
+#include "secciones/justificacion.typ"
+#include "secciones/objetivos.typ"
 
 #pagebreak()
 #bibliography("refs.bib", full: true)

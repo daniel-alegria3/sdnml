@@ -1,10 +1,11 @@
 = Antecedentes
 
-Zhang et al. (2020) @zhang2020 proponen un sistema integrado llamado *Intelligent
-  Content-Aware Traffic Engineering* (iTE), que sintetiza *ICN* (Information-Centric
-Networking), *SDN* (Software-Defined Networking) e *AI* (Artificial Intelligence) para
-lograr un *TE* (Traffic Engineering) adaptativo basado en el contenido. El framework
-introduce varios componentes novedosos que se basan y amplian investigaciones previas:
+*Zhang et al. (2020) @zhang2020* proponen un sistema integrado llamado _Intelligent
+Content-Aware Traffic Engineering_ (`iTE`), que sintetiza `ICN` (_Information-Centric
+Networking_), `SDN` (_Software-Defined Networking_) e `AI` (_Artificial Intelligence_)
+para lograr un `TE` (_Traffic Engineering_) adaptativo basado en el contenido. El
+framework introduce varios componentes novedosos que se basan y amplian investigaciones
+previas:
 
 - *Deep Learning for Content Awareness:*
   Una red neuronal profunda predice las demandas de ancho de banda basandose en los
@@ -33,7 +34,7 @@ aplicabilidad de DRL en TE.
 
 
 
-Sarmad et al. (2025) @sarmad2025 contribuyen al creciente cuerpo de trabajo
+*Sarmad et al. (2025) @sarmad2025* contribuyen al creciente cuerpo de trabajo
 introduciendo un marco de asignacion dinamica de ancho de banda impulsado por IA
 (AI-driven dynamic bandwidth allocation framework) para SDN (Software-Defined
 Networking), diseñado especificamente para redes de campus inteligentes (smart campus
@@ -45,10 +46,10 @@ banda.
 La arquitectura propuesta consta de los siguientes componentes:
 
 + *SDN Controller Layer:* Gestiona la visibilidad global de la red (global network
-visibility) y la aplicacion de politicas (policy enforcement).
+  visibility) y la aplicacion de politicas (policy enforcement).
 
 + *AI Module:* Responsable de analizar las caracteristicas del trafico y predecir los
-requisitos de ancho de banda utilizando machine learning.
+  requisitos de ancho de banda utilizando machine learning.
 
 + *Dynamic Allocator:* Ajusta la asignacion de ancho de banda en tiempo real basandose
   en las prioridades predichas y los recursos disponibles.
@@ -72,7 +73,7 @@ indices) significativamente mayor entre las distintas clases de trafico.
 
 
 
-Maulana et al. (2024) @sdnrnmo2024 proporcionan evidencia tanto empírica como
+*Maulana et al. (2024) @sdnrnmo2024* proporcionan evidencia tanto empírica como
 cualitativa de los beneficios tangibles de SDN (Software-Defined Networking) en
 comparación con las arquitecturas tradicionales. Utilizando configuraciones
 experimentales que presentan los controladores OpenDaylight y Ryu, el estudio encontró
@@ -97,48 +98,12 @@ que SDN mejora significativamente múltiples métricas de rendimiento:
   posible consolidación de equipos.
 
 
-Ye G., (2022) @rao2024dardrl, “DRL-Idle: A Deep Reinforcement Learning approach for
-efficient flow table management in SDN,” Universidad de Vigo / Elsevier B.V., España.
-Conclusiones:
+*Aguirre Sanchez L. P., Shen Y., Guo M. (2023)* @aguirre2023dqs, “DQS: A QoS-driven
+routing optimization approach in SDN using Deep Reinforcement Learning,” Shanghai Jiao
+Tong University, China.
 
-El uso de aprendizaje profundo por refuerzo (DRL) permite ajustar dinámicamente los
-valores de idle timeout de las reglas de flujo en redes SDN.
-
-Esta adaptación continua optimiza el uso de la memoria TCAM, reduciendo la necesidad de
-nuevas instalaciones de reglas y mejorando la eficiencia global del sistema.
-
-El modelo DRL-Idle logra un aumento promedio del 30 % en el rendimiento frente a los
-métodos tradicionales.
-
-// ORIGINAL: Comentario: Este trabajo servirá como antecedente metodológico,
-Este trabajo servirá como antecedente metodológico, ya que muestra cómo el DRL puede
-aprender y adaptarse dinámicamente a condiciones variables para optimizar recursos
-limitados, principio aplicable a la asignación inteligente de ancho de banda en nuestro
-proyecto.
-
-Autor no especificado (2023), “QoS-driven Routing Optimization in SDN using Deep
-Reinforcement Learning (DQS),” Universidad Tecnológica de Lisboa / Elsevier B.V.,
-Portugal. Conclusiones:
-
-El método DQS emplea un agente DRL con una función multiobjetivo que considera métricas
-de enlace y cola, mejorando la priorización del tráfico.
-
-El sistema mantiene la escalabilidad y reduce significativamente los tiempos de
-convergencia del enrutamiento en redes SDN complejas.
-
-Los resultados experimentales evidencian una reducción del 20 %–30 % en el retardo
-extremo a extremo, mejorando la calidad del servicio (QoS). Comentario: Este estudio
-constituye un antecedente técnico esencial, ya que integra aprendizaje profundo por
-refuerzo con optimización de QoS, demostrando la eficacia del DRL en la gestión dinámica
-del ancho de banda y tráfico de red, base conceptual directa para el desarrollo de
-nuestro modelo de asignación inteligente.
-
-
-
-Aguirre Sanchez L. P., Shen Y., Guo M. (2023) @aguirre2023dqs, “DQS: A QoS-driven routing optimization
-approach in SDN using Deep Reinforcement Learning,” Shanghai Jiao Tong University,
-China. El método DQS utiliza aprendizaje por refuerzo profundo (DRL) para optimizar
-rutas en redes SDN, priorizando el tráfico según métricas de enlace y cola.
+El método DQS utiliza aprendizaje por refuerzo profundo (DRL) para optimizar rutas en
+redes SDN, priorizando el tráfico según métricas de enlace y cola.
 
 Logra mejorar la eficiencia de la red y mantener la escalabilidad reduciendo los tiempos
 de convergencia.
@@ -149,10 +114,12 @@ Comentario: Este trabajo se considera un antecedente técnico directo, ya que ab
 optimización inteligente de la calidad de servicio (QoS) mediante DRL, principio
 fundamental para la asignación dinámica de ancho de banda en nuestro proyecto.
 
-Rao Z., Xu Y., Yao Y., Meng W. (2024) @rao2024dardrl, “DAR-DRL: A Dynamic Adaptive Routing Method Based
-on Deep Reinforcement Learning,” Technical University of Denmark, Dinamarca. Propone un
-modelo de enrutamiento adaptativo que combina aprendizaje profundo y refuerzo (DRL) con
-una arquitectura de grafos (LA-GNN) para representar estados de red dinámicos.
+*Rao Z., Xu Y., Yao Y., Meng W. (2024) @rao2024dardrl*, “DAR-DRL: A Dynamic Adaptive
+Routing Method Based on Deep Reinforcement Learning,” Technical University of Denmark,
+Dinamarca.
+
+Propone un modelo de enrutamiento adaptativo que combina aprendizaje profundo y refuerzo
+(DRL) con una arquitectura de grafos (LA-GNN) para representar estados de red dinámicos.
 
 Introduce una estrategia de enrutamiento salto a salto con funciones de recompensa que
 garantizan fiabilidad y evitan bucles o agujeros de ruta.
