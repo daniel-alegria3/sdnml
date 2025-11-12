@@ -1,30 +1,15 @@
 = Objetivos
 == Objetivo General
-Diseñar un sistema de asignación inteligente de ancho de banda basado en SDN e
-Inteligencia Artificial para optimizar la gestión del tráfico de red y priorizar
-automáticamente las actividades académicas sobre las recreativas en la Facultad de
-Ingeniería Informática y de Sistemas de la UNSAAC.
+Diseñar un sistema inteligente de gestión del ancho de banda basado en Redes Definidas por Software (SDN) e Inteligencia Artificial (IA) que optimice la asignación de recursos de red en la Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), priorizando las actividades académicas sobre las recreativas para mejorar la calidad del servicio educativo.
 
 == Objetivos Específicos
 
-- Analizar los patrones de consumo de ancho de banda y las características del tráfico
-  de red en la Facultad de Ingeniería Informática y de Sistemas de la UNSAAC para
-  identificar los cuellos de botella y periodos de saturación que afectan el servicio
-  educativo.
+- Analizar los factores que influyen en la saturación y el uso ineficiente del ancho de banda dentro de la red institucional de la UNSAAC.
 
-- Clasificar el tráfico de red en categorías académicas y recreativas mediante técnicas
-  de Deep Learning para establecer criterios objetivos de priorización basados en la
-  naturaleza de las aplicaciones.
+- Identificar los criterios y parámetros que permitan diferenciar el tráfico académico del recreativo en tiempo real.
 
-- Diseñar una arquitectura basada en SDN que integre módulos de IA para implementar
-  políticas dinámicas de asignación de ancho de banda que respondan en tiempo real a las
-  variaciones de demanda.
+- Diseñar una arquitectura de red basada en SDN que permita una gestión dinámica y centralizada del ancho de banda.
 
-- Desarrollar algoritmos de priorización adaptativa utilizando Deep Reinforcement
-  Learning para garantizar que las actividades académicas críticas mantengan niveles
-  óptimos de calidad de servicio durante las horas pico.
+- Integrar técnicas de Inteligencia Artificial para la predicción de la demanda y la asignación automatizada de recursos de red según las prioridades académicas.
 
-- Evaluar el rendimiento del sistema propuesto mediante métricas de latencia,
-  throughput, pérdida de paquetes y balance de carga en escenarios simulados para
-  validar la mejora en la calidad del servicio comparado con los métodos tradicionales
-  de gestión de red.
+- Evaluar el impacto del sistema inteligente propuesto en la calidad del servicio de conectividad y en el desarrollo de las actividades académicas dentro de la Escuela Profesional de Ingeniería Informática y de Sistemas.
