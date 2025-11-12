@@ -3,9 +3,17 @@
 *Zhang et al. (2020) @zhang2020* proponen un sistema integrado llamado _Intelligent
 Content-Aware Traffic Engineering_ (`iTE`), que sintetiza `ICN` (_Information-Centric
 Networking_), `SDN` (_Software-Defined Networking_) e `AI` (_Artificial Intelligence_)
-para lograr un `TE` (_Traffic Engineering_) adaptativo basado en el contenido. El
-framework introduce varios componentes novedosos que se basan y amplian investigaciones
-previas:
+para lograr un `TE` (_Traffic Engineering_) adaptativo basado en el contenido.
+
+A traves de simulaciones exhaustivas utilizando NSFNET, GEANT y topologias aleatorias,
+los autores demuestran que iTE supera consistentemente los metodos existentes en
+rendimiento total, utilizacion del ancho de banda y balance de carga. Ademas, el
+mecanismo PDM resuelve el problema de seguridad que previamente limitaba la
+aplicabilidad de DRL en TE.
+
+/*
+El framework introduce varios componentes novedosos que se basan y amplian
+investigaciones previas:
 
 - *Deep Learning for Content Awareness:*
   Una red neuronal profunda predice las demandas de ancho de banda basandose en los
@@ -25,15 +33,31 @@ previas:
 - *Deep Deterministic Policy Gradient (DDPG) Model:*
   Este algoritmo de control continuo optimiza el rendimiento total (throughput) y el
   balance de carga simultaneamente, adaptandose a la dinamica de la red en tiempo real.
+*/
 
-A traves de simulaciones exhaustivas utilizando NSFNET, GEANT y topologias aleatorias, los autores demuestran que iTE supera consistentemente los metodos existentes en
-rendimiento total, utilizacion del ancho de banda y balance de carga. Ademas, el mecanismo PDM resuelve el problema de seguridad que previamente limitaba la aplicabilidad de DRL en TE.
+Este antecedente será útil para nuestro trabajo al demostrar cómo la combinación de SDN
+e Inteligencia Artificial puede mejorar la gestión del tráfico mediante decisiones
+adaptativas basadas en aprendizaje profundo. Sirve como fundamento conceptual para el
+desarrollo de un sistema que asigne dinámicamente ancho de banda priorizando el tráfico
+académico según la naturaleza del contenido y las necesidades reales de la red
+universitaria.
 
-Este antecedente será útil para nuestro trabajo al demostrar cómo la combinación de SDN e Inteligencia Artificial puede mejorar la gestión del tráfico mediante decisiones adaptativas basadas en aprendizaje profundo. Sirve como fundamento conceptual para el desarrollo de un sistema que asigne dinámicamente ancho de banda priorizando el tráfico académico según la naturaleza del contenido y las necesidades reales de la red universitaria.
 
+*Sarmad et al. (2025) @sarmad2025* Propone que el marco de asignación dinámica de ancho
+de banda impulsado por IA propuesto mejora de manera significativa la eficiencia y la
+equidad en la gestión de recursos dentro de redes SDN para campus inteligentes. Los
+resultados experimentales evidencian hasta un 30% de mejora en la utilización del ancho
+de banda en comparación con los sistemas tradicionales, junto con una reducción notable
+de la latencia y la pérdida de paquetes.
 
+Asimismo, el sistema demuestra una capacidad efectiva para priorizar el tráfico
+educativo y de investigación sobre el no esencial, optimizando así la calidad del
+servicio (QoS) durante las horas de mayor congestión. En conjunto, los autores sostienen
+que la integración de técnicas de machine learning en la toma de decisiones del
+controlador SDN constituye una estrategia viable y beneficiosa para la operación
+eficiente y adaptativa de redes de campus inteligentes
 
-*Sarmad et al. (2025) @sarmad2025* contribuyen al creciente cuerpo de trabajo
+/*
 introduciendo un marco de asignacion dinamica de ancho de banda impulsado por IA
 (AI-driven dynamic bandwidth allocation framework) para SDN (Software-Defined
 Networking), diseñado especificamente para redes de campus inteligentes (smart campus
@@ -68,8 +92,13 @@ streaming). Los resultados experimentales demuestran que su sistema:
 En comparacion con los sistemas existentes basados en SDN, el modelo muestra hasta un
 30% de mejora en la utilizacion del ancho de banda y un indice de equidad (fairness
 indices) significativamente mayor entre las distintas clases de trafico.
+*/
 
-Este antecedente será directamente aplicable al contexto universitario de la UNSAAC, pues ofrece un marco probado de asignación dinámica de ancho de banda en campus inteligentes. Sirve como referencia práctica para implementar un sistema de priorización automática de tráfico académico mediante SDN e IA, alineado con los objetivos de optimizar el rendimiento de la red y mejorar la experiencia educativa.
+Este antecedente será directamente aplicable al contexto universitario de la UNSAAC,
+pues ofrece un marco probado de asignación dinámica de ancho de banda en campus
+inteligentes. Sirve como referencia práctica para implementar un sistema de priorización
+automática de tráfico académico mediante SDN e IA, alineado con los objetivos de
+optimizar el rendimiento de la red y mejorar la experiencia educativa.
 
 
 
@@ -97,7 +126,11 @@ que SDN mejora significativamente múltiples métricas de rendimiento:
   sugiere una mejor eficiencia energética (Improved Energy Efficiency) a través de la
   posible consolidación de equipos.
 
-Este antecedente será útil para fundamentar la elección de SDN como tecnología base de nuestra propuesta. Su evidencia experimental respalda que una red con control centralizado y programable puede ofrecer mayor estabilidad, escalabilidad y rendimiento, condiciones necesarias para implementar la asignación inteligente de ancho de banda en el entorno universitario.
+Este antecedente será útil para fundamentar la elección de SDN como tecnología base de
+nuestra propuesta. Su evidencia experimental respalda que una red con control
+centralizado y programable puede ofrecer mayor estabilidad, escalabilidad y rendimiento,
+condiciones necesarias para implementar la asignación inteligente de ancho de banda en
+el entorno universitario.
 
 *Aguirre Sanchez L. P., Shen Y., Guo M. (2023)* @aguirre2023dqs, “DQS: A QoS-driven
 routing optimization approach in SDN using Deep Reinforcement Learning,” Shanghai Jiao
@@ -115,23 +148,38 @@ Comentario: Este trabajo se considera un antecedente técnico directo, ya que ab
 optimización inteligente de la calidad de servicio (QoS) mediante DRL, principio
 fundamental para la asignación dinámica de ancho de banda en nuestro proyecto.
 
-Este trabajo constituye un antecedente técnico esencial, ya que demuestra la viabilidad de aplicar algoritmos de DRL para mejorar la calidad de servicio (QoS). Será de utilidad para desarrollar el componente inteligente de nuestro sistema, encargado de optimizar dinámicamente la asignación de ancho de banda según las condiciones y demandas cambiantes de la red universitaria.
+Este trabajo constituye un antecedente técnico esencial, ya que demuestra la viabilidad
+de aplicar algoritmos de DRL para mejorar la calidad de servicio (QoS). Será de utilidad
+para desarrollar el componente inteligente de nuestro sistema, encargado de optimizar
+dinámicamente la asignación de ancho de banda según las condiciones y demandas
+cambiantes de la red universitaria.
 
 *Rao Z., Xu Y., Yao Y., Meng W. (2024) @rao2024dardrl*, “DAR-DRL: A Dynamic Adaptive
 Routing Method Based on Deep Reinforcement Learning,” Technical University of Denmark,
 Dinamarca.
 
-Propone un modelo de enrutamiento adaptativo que combina aprendizaje profundo y refuerzo
-(DRL) con una arquitectura de grafos (LA-GNN) para representar estados de red dinámicos.
+El estudio presenta DQS (Deep Reinforcement Learning-based QoS Routing Optimization), un
+enfoque de optimización del enrutamiento en redes definidas por software (SDN) impulsado
+por aprendizaje por refuerzo profundo (DRL). El modelo propuesto busca mejorar la
+eficiencia de la red y la calidad del servicio (QoS) mediante la toma de decisiones
+inteligentes que distribuyen dinámicamente el tráfico en función de múltiples métricas,
+tales como las características de los enlaces y las colas de transmisión.
 
-Introduce una estrategia de enrutamiento salto a salto con funciones de recompensa que
-garantizan fiabilidad y evitan bucles o agujeros de ruta.
+A través de un agente DRL guiado por una función multiobjetivo, el sistema aprende
+políticas de enrutamiento que equilibran la carga de la red, evitan la congestión y
+priorizan el tráfico según las condiciones del entorno. Esta estrategia permite mantener
+la escalabilidad del sistema y reducir significativamente los tiempos de convergencia
+frente a los métodos tradicionales.
 
-Los resultados experimentales demuestran mejoras en retardo extremo a extremo, pérdida
-de paquetes y rendimiento bajo cambios topológicos y tráfico variable. Comentario: Este
-estudio constituye un antecedente metodológico relevante, ya que demuestra la capacidad
-del DRL para adaptarse a condiciones de red dinámicas y optimizar recursos de
-transmisión, base aplicable a la asignación inteligente y adaptativa de ancho de banda
-en redes modernas.
+Los resultados experimentales, obtenidos mediante un prototipo implementado con Docker y
+OpenFlow, evidencian una reducción del 20 % al 30 % en la latencia extremo a extremo,
+demostrando la capacidad del modelo para optimizar el desempeño de la red incluso en
+escenarios de alta complejidad y tráfico variable.
 
-Este antecedente refuerza el enfoque metodológico de nuestro proyecto, al mostrar cómo el DRL puede adaptarse en tiempo real a las variaciones del tráfico y las condiciones de red. Su aplicación será útil para desarrollar mecanismos de respuesta dinámica que permitan priorizar el tráfico académico y garantizar la estabilidad de la conectividad en la universidad.
+Este trabajo constituye un antecedente técnico esencial para la presente investigación,
+ya que valida la viabilidad de aplicar algoritmos de aprendizaje por refuerzo profundo
+(DRL) en la optimización de la calidad de servicio (QoS) dentro de redes SDN. Los
+resultados aportan una base sólida para el desarrollo del componente inteligente del
+sistema propuesto en la UNSAAC, orientado a optimizar dinámicamente la asignación de
+ancho de banda y priorizar el tráfico académico de acuerdo con las condiciones
+cambiantes de la red universitaria.
