@@ -1,95 +1,44 @@
 = Problema de Investigación
 
 == Descripción del problema
-El acceso a Internet dentro de las universidades se ha convertido en un recurso
-fundamental, tanto como la electricidad o el agua, ya que sobre él se sostienen las
-principales actividades académicas, investigativas y administrativas. Hoy en día, la
-mayoría de los procesos de enseñanza-aprendizaje dependen directamente de plataformas
-digitales, aulas virtuales, servicios en la nube y sistemas de gestión académica, por lo
-que una interrupción o limitación significativa en la conectividad impacta de manera
-directa en la calidad de la educación.
+El acceso a Internet dentro de las instituciones educativas se ha convertido en un recurso fundamental, comparable con servicios básicos como la electricidad o el agua, ya que sobre él se sostienen las principales actividades académicas, investigativas y administrativas. En la actualidad, la mayoría de los procesos de enseñanza-aprendizaje dependen directamente de plataformas digitales, aulas virtuales, servicios en la nube y sistemas de gestión académica, por lo que una interrupción o limitación significativa en la conectividad impacta de manera directa en la calidad del proceso educativo.
 
-A pesar de su importancia, la administración de las redes universitarias presenta serios
-desafíos. La masificación de dispositivos conectados a la red ha crecido a un ritmo
-acelerado en los últimos años. En el caso de la Universidad Nacional San Antonio Abad
-del Cusco (UNSAAC), cada estudiante, docente y personal administrativo dispone de
-múltiples dispositivos —computadoras portátiles, teléfonos inteligentes, tablets— que se
-conectan simultáneamente a la red institucional. Esto provoca un aumento exponencial del
-tráfico, el cual no siempre puede ser gestionado adecuadamente con los mecanismos
-tradicionales de control.
+A pesar de su importancia, la administración de las redes en entornos educativos presenta serios desafíos. La masificación de dispositivos conectados a la red ha crecido de manera acelerada en los últimos años. Cada estudiante, docente y miembro del personal administrativo dispone de múltiples dispositivos —computadoras portátiles, teléfonos inteligentes, tablets— que se conectan simultáneamente a la red institucional. Esto provoca un aumento exponencial del tráfico, el cual no siempre puede ser gestionado adecuadamente mediante mecanismos tradicionales de control.
 
-El problema no radica únicamente en el incremento del número de usuarios, sino también
-en la naturaleza de las aplicaciones utilizadas. Por un lado, existen aplicaciones
-críticas para el quehacer académico, como las plataformas de videoconferencia (Google
-Meet, Zoom, Microsoft Teams), los sistemas de gestión de aprendizaje (Moodle,
-Blackboard), repositorios de datos de investigación, servidores de código, y bibliotecas
-virtuales. Por otro lado, existe un uso intensivo de servicios recreativos, tales como
-redes sociales, plataformas de streaming (YouTube, Netflix, Spotify), videojuegos en
-línea y descargas de gran tamaño. Ambas categorías de uso compiten por el mismo ancho de
-banda, generando conflictos de prioridades que no pueden ser resueltos de forma
-equitativa sin una gestión avanzada de recursos.
+El problema no radica únicamente en el incremento del número de usuarios, sino también en la naturaleza de las aplicaciones utilizadas. Por un lado, existen aplicaciones críticas para las actividades académicas, como las plataformas de videoconferencia, los sistemas de gestión del aprendizaje, los repositorios de datos de investigación y las bibliotecas virtuales. Por otro lado, existe un uso intensivo de servicios recreativos, tales como redes sociales, plataformas de streaming, videojuegos en línea y descargas de gran tamaño. Ambas categorías de uso compiten por el mismo ancho de banda, generando conflictos de prioridad que no pueden resolverse de manera equitativa sin una gestión avanzada de recursos.
 
-En la práctica, este escenario ha derivado en varios problemas recurrentes dentro de la
-universidad. En primer lugar, se produce saturación de la red en las horas pico
-(principalmente en las mañanas y al inicio de la tarde), lo cual se traduce en
-conexiones lentas, interrupciones frecuentes y pérdida de calidad de servicio. En
-segundo lugar, existe una distribución desigual de los recursos de red, ya que algunos
-usuarios consumen grandes cantidades de ancho de banda en actividades recreativas
-mientras que otros, que requieren la red para fines académicos, no logran completar
-tareas esenciales. Finalmente, se generan caídas de conexión que afectan a docentes y
-estudiantes durante el dictado de clases en línea o la presentación de evaluaciones, con
-el consiguiente perjuicio en el rendimiento académico.
+En la práctica, este escenario ha derivado en varios problemas recurrentes. En primer lugar, se produce saturación de la red durante las horas de mayor demanda, lo cual se traduce en conexiones lentas, interrupciones frecuentes y pérdida de calidad del servicio. En segundo lugar, existe una distribución desigual de los recursos, ya que algunos usuarios consumen grandes cantidades de ancho de banda en actividades recreativas mientras que otros, que requieren la red para fines académicos, no logran completar tareas esenciales. Finalmente, se generan caídas de conexión que afectan el desarrollo de clases virtuales, evaluaciones en línea o reuniones académicas, con el consiguiente impacto negativo en el rendimiento estudiantil y docente.
 
-El caso de la Facultad de Ingeniería Informática y de Sistemas es particularmente
-crítico. Los estudiantes de esta facultad requieren de un acceso estable y de calidad no
-solo para conectarse a clases virtuales, sino también para descargar paquetes de
-software, ejecutar simulaciones en entornos virtualizados, trabajar con repositorios en
-la nube, realizar pruebas de aplicaciones distribuidas, e incluso acceder a entornos de
-programación remota. En varias ocasiones, la saturación de la red ha impedido la
-ejecución de prácticas y proyectos, lo que retrasa el cumplimiento de los objetivos de
-aprendizaje y genera frustración en los estudiantes.
+En el caso de los programas de formación relacionados con la ingeniería, las ciencias o la tecnología, la problemática se agrava. Los estudiantes de estas áreas requieren un acceso estable y de calidad no solo para asistir a clases virtuales, sino también para descargar software, ejecutar simulaciones, trabajar con repositorios en la nube, realizar pruebas de aplicaciones distribuidas o acceder a entornos de programación remota. La saturación de la red puede impedir la ejecución de prácticas y proyectos, lo que retrasa el cumplimiento de los objetivos de aprendizaje y genera frustración en la comunidad estudiantil.
 
-Desde una perspectiva institucional, estas limitaciones en la gestión del ancho de banda
-generan también un impacto negativo en la percepción de la calidad del servicio
-educativo. La imposibilidad de garantizar una conectividad confiable puede convertirse
-en un factor que afecte la competitividad de la universidad frente a otras
-instituciones, en un contexto en el que la virtualización de la educación y la
-transformación digital son ya una realidad ineludible.
+Desde una perspectiva institucional, estas limitaciones en la gestión del ancho de banda afectan también la percepción de la calidad del servicio educativo. La imposibilidad de garantizar una conectividad confiable puede convertirse en un factor que limite la competitividad y la capacidad de adaptación tecnológica de la institución en un contexto donde la virtualización y la transformación digital de la educación son una necesidad ineludible.
 
-Actualmente, los mecanismos tradicionales de administración de red que se emplean en la
-universidad son de carácter estático y poco flexibles. Esto significa que la
-configuración de prioridades o restricciones de tráfico se realiza de manera manual y no
-responde a las variaciones dinámicas de la demanda. En otras palabras, si un aula
-virtual requiere más ancho de banda en un momento específico, el sistema no cuenta con
-la capacidad de asignarlo automáticamente, lo que provoca que actividades de menor
-relevancia puedan acaparar recursos que deberían destinarse a tareas prioritarias.
+Actualmente, los mecanismos tradicionales de administración de red empleados en muchos entornos educativos son de carácter estático y poco flexibles. Esto significa que la configuración de prioridades o restricciones de tráfico se realiza de manera manual y no responde a las variaciones dinámicas de la demanda. En otras palabras, si un aula virtual requiere más ancho de banda en un momento determinado, el sistema no cuenta con la capacidad de asignarlo automáticamente, lo que provoca que actividades de menor relevancia puedan acaparar recursos destinados a tareas prioritarias.
 
-Ante esta problemática, resulta evidente la necesidad de adoptar nuevos enfoques
-tecnológicos que permitan una gestión más inteligente, dinámica y adaptativa del tráfico
-de red. En este contexto, las Redes Definidas por Software (SDN) representan una
-alternativa viable, ya que separan el plano de control del plano de datos, facilitando
-la programación y administración centralizada de la red. Además, la incorporación de
-técnicas de Inteligencia Artificial (IA) abre la posibilidad de analizar patrones de
-tráfico, anticipar situaciones de congestión y asignar recursos en función de
-prioridades previamente definidas.
+Ante esta problemática, resulta evidente la necesidad de adoptar nuevos enfoques tecnológicos que permitan una gestión más inteligente, dinámica y adaptativa del tráfico de red. En este contexto, las Redes Definidas por Software (SDN) representan una alternativa viable, ya que separan el plano de control del plano de datos, facilitando la programación y administración centralizada de la red. Además, la incorporación de técnicas de Inteligencia Artificial (IA) abre la posibilidad de analizar patrones de tráfico, anticipar situaciones de congestión y asignar recursos en función de prioridades previamente definidas.
 
-De esta manera, se plantea que la aplicación de un modelo basado en SDN con soporte de
-IA podría convertirse en una solución innovadora para la UNSAAC, al permitir asignar
-dinámicamente el ancho de banda según la naturaleza de las actividades. Así, se
-garantizaría que los procesos académicos y de investigación reciban el nivel de calidad
-de servicio necesario, reduciendo al mismo tiempo el impacto negativo del uso recreativo
-sobre los recursos de red compartidos.
 
 == Identificación del problema
-El problema se focaliza en la gestión ineficiente del ancho de banda en la red universitaria. Actualmente, los usuarios experimentan lentitud en la conexión durante horas pico, priorización inadecuada del tráfico de red y ausencia de mecanismos de control inteligente que permitan garantizar un servicio estable y equitativo. Esta situación afecta directamente el rendimiento académico, debido a la pérdida de tiempo por conexiones lentas; y limita el aprovechamiento de las herramientas tecnológicas necesarias para la formación profesional.
 
-Uno de los principales inconvenientes observados es la saturación de la red en horas pico, lo que ocasiona interrupciones constantes durante los laboratorios, las evaluaciones en línea y las reuniones académicas, afectando tanto a estudiantes como a docentes. A ello se suma la competencia desigual entre aplicaciones críticas y recreativas, ya que servicios de entretenimiento como streaming o videojuegos en línea consumen recursos que deberían estar disponibles para actividades académicas esenciales.
+En la Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), particularmente en la Escuela Profesional de Ingeniería Informática y de Sistemas, se evidencia una gestión ineficiente del ancho de banda en la red institucional. Esta deficiencia impide una asignación adecuada de los recursos de conectividad, afectando la estabilidad del servicio y la priorización del tráfico académico frente a otros tipos de uso.
 
-Otro aspecto problemático es la falta de mecanismos dinámicos de priorización, dado que la asignación de ancho de banda se realiza de manera manual y no responde en tiempo real a los cambios de la demanda. Esto conlleva a un uso ineficiente de los recursos y a situaciones en las que actividades educativas se ven relegadas frente a usos recreativos.
+El problema se manifiesta principalmente en la falta de mecanismos automatizados y adaptativos que permitan administrar la red en función de la demanda real y de la criticidad de las aplicaciones utilizadas. La gestión actual se basa en configuraciones estáticas, lo que limita la capacidad para responder ante variaciones en la cantidad de usuarios o en la naturaleza de las actividades que se desarrollan, especialmente durante las horas de mayor carga.
 
-La situación se torna más crítica en la Facultad de Ingeniería Informática y de Sistemas, donde las prácticas y proyectos de los estudiantes dependen de una conectividad estable para descargar software, ejecutar simulaciones o acceder a repositorios en la nube. La inestabilidad de la red interrumpe estas actividades, generando retrasos en el aprendizaje y dificultades en el cumplimiento de los objetivos académicos.
+Esta situación impacta de forma directa en el desarrollo académico y formativo de los estudiantes, ya que muchas de las actividades de la Escuela —como la ejecución de simulaciones, la descarga de software, el acceso a entornos virtuales y la conexión a repositorios en la nube— requieren de una conexión estable y con suficiente ancho de banda. La ausencia de una gestión inteligente del tráfico genera interrupciones, retrasos en la realización de prácticas y dificultades para cumplir los objetivos de aprendizaje establecidos.
 
-Además, la limitada calidad de conectividad repercute en la percepción institucional, ya que afecta la competitividad de la UNSAAC frente a otras universidades que cuentan con infraestructuras tecnológicas más modernas y adaptadas a las demandas actuales de la educación digital. Finalmente, se evidencia una ausencia de integración con tecnologías emergentes como las Redes Definidas por Software (SDN) y la Inteligencia Artificial (IA), herramientas que podrían ofrecer una gestión más inteligente, flexible y adaptativa del tráfico de red en beneficio de la comunidad universitaria.
+Además, la falta de políticas de priorización basadas en criterios académicos contribuye al uso desigual de los recursos de red, permitiendo que aplicaciones recreativas o de entretenimiento compitan con servicios esenciales para la docencia e investigación. Esta situación no solo afecta la productividad de los usuarios, sino también la percepción institucional de calidad tecnológica, limitando la capacidad de la UNSAAC para adaptarse a las exigencias de la educación digital contemporánea.
+
+En síntesis, el problema identificado consiste en la ausencia de un sistema dinámico e inteligente de gestión del tráfico de red en la UNSAAC, que permita optimizar el uso del ancho de banda, asegurar la estabilidad del servicio y garantizar la prioridad de las actividades académicas mediante la incorporación de tecnologías emergentes como las Redes Definidas por Software (SDN) y la Inteligencia Artificial (IA).
 
 == Formulación del problema
-Crear un sistema de asignación inteligente de ancho de banda en un entorno universitario que optimice el uso de la red y priorice de manera automática las actividades académicas sobre las recreativas, garantizando así la calidad del servicio educativo y el adecuado aprovechamiento de los recursos tecnológicos.
+La Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), particularmente en la Escuela Profesional de Ingeniería Informática y de Sistemas, presenta una asignación inadecuada del ancho de banda en su red institucional, debido a la falta de mecanismos automatizados que gestionen el tráfico de manera eficiente. Generando congestión, priorización incorrecta del tráfico y limitaciones en el acceso a servicios académicos esenciales, afectando la calidad del proceso formativo y el aprovechamiento de los recursos tecnológicos disponibles.
+
++ ¿Qué factores influyen en la saturación y el uso ineficiente del ancho de banda dentro de la red universitaria?
+
++ ¿Qué criterios pueden emplearse para diferenciar el tráfico académico del recreativo en tiempo real?
+
++ ¿Cómo podrían las Redes Definidas por Software (SDN) contribuir a una gestión más flexible y dinámica del ancho de banda?
+
++ ¿De qué manera puede integrarse la Inteligencia Artificial (IA) para predecir y asignar recursos de red según la demanda y las prioridades académicas?
+
++ ¿Qué impacto tendría la implementación de un sistema inteligente de gestión del ancho de banda en la calidad del servicio educativo de la UNSAAC?

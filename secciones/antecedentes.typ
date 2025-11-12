@@ -26,11 +26,10 @@ previas:
   Este algoritmo de control continuo optimiza el rendimiento total (throughput) y el
   balance de carga simultaneamente, adaptandose a la dinamica de la red en tiempo real.
 
-A traves de simulaciones exhaustivas utilizando NSFNET, GEANT y topologias aleatorias,
-los autores demuestran que iTE supera consistentemente los metodos existentes en
-rendimiento total, utilizacion del ancho de banda y balance de carga. Ademas, el
-mecanismo PDM resuelve el problema de seguridad que previamente limitaba la
-aplicabilidad de DRL en TE.
+A traves de simulaciones exhaustivas utilizando NSFNET, GEANT y topologias aleatorias, los autores demuestran que iTE supera consistentemente los metodos existentes en
+rendimiento total, utilizacion del ancho de banda y balance de carga. Ademas, el mecanismo PDM resuelve el problema de seguridad que previamente limitaba la aplicabilidad de DRL en TE.
+
+Este antecedente será útil para nuestro trabajo al demostrar cómo la combinación de SDN e Inteligencia Artificial puede mejorar la gestión del tráfico mediante decisiones adaptativas basadas en aprendizaje profundo. Sirve como fundamento conceptual para el desarrollo de un sistema que asigne dinámicamente ancho de banda priorizando el tráfico académico según la naturaleza del contenido y las necesidades reales de la red universitaria.
 
 
 
@@ -70,6 +69,7 @@ En comparacion con los sistemas existentes basados en SDN, el modelo muestra has
 30% de mejora en la utilizacion del ancho de banda y un indice de equidad (fairness
 indices) significativamente mayor entre las distintas clases de trafico.
 
+Este antecedente será directamente aplicable al contexto universitario de la UNSAAC, pues ofrece un marco probado de asignación dinámica de ancho de banda en campus inteligentes. Sirve como referencia práctica para implementar un sistema de priorización automática de tráfico académico mediante SDN e IA, alineado con los objetivos de optimizar el rendimiento de la red y mejorar la experiencia educativa.
 
 
 
@@ -97,6 +97,7 @@ que SDN mejora significativamente múltiples métricas de rendimiento:
   sugiere una mejor eficiencia energética (Improved Energy Efficiency) a través de la
   posible consolidación de equipos.
 
+Este antecedente será útil para fundamentar la elección de SDN como tecnología base de nuestra propuesta. Su evidencia experimental respalda que una red con control centralizado y programable puede ofrecer mayor estabilidad, escalabilidad y rendimiento, condiciones necesarias para implementar la asignación inteligente de ancho de banda en el entorno universitario.
 
 *Aguirre Sanchez L. P., Shen Y., Guo M. (2023)* @aguirre2023dqs, “DQS: A QoS-driven
 routing optimization approach in SDN using Deep Reinforcement Learning,” Shanghai Jiao
@@ -114,6 +115,8 @@ Comentario: Este trabajo se considera un antecedente técnico directo, ya que ab
 optimización inteligente de la calidad de servicio (QoS) mediante DRL, principio
 fundamental para la asignación dinámica de ancho de banda en nuestro proyecto.
 
+Este trabajo constituye un antecedente técnico esencial, ya que demuestra la viabilidad de aplicar algoritmos de DRL para mejorar la calidad de servicio (QoS). Será de utilidad para desarrollar el componente inteligente de nuestro sistema, encargado de optimizar dinámicamente la asignación de ancho de banda según las condiciones y demandas cambiantes de la red universitaria.
+
 *Rao Z., Xu Y., Yao Y., Meng W. (2024) @rao2024dardrl*, “DAR-DRL: A Dynamic Adaptive
 Routing Method Based on Deep Reinforcement Learning,” Technical University of Denmark,
 Dinamarca.
@@ -130,3 +133,5 @@ estudio constituye un antecedente metodológico relevante, ya que demuestra la c
 del DRL para adaptarse a condiciones de red dinámicas y optimizar recursos de
 transmisión, base aplicable a la asignación inteligente y adaptativa de ancho de banda
 en redes modernas.
+
+Este antecedente refuerza el enfoque metodológico de nuestro proyecto, al mostrar cómo el DRL puede adaptarse en tiempo real a las variaciones del tráfico y las condiciones de red. Su aplicación será útil para desarrollar mecanismos de respuesta dinámica que permitan priorizar el tráfico académico y garantizar la estabilidad de la conectividad en la universidad.
