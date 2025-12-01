@@ -108,16 +108,16 @@ actividades académicas mediante la incorporación de tecnologías emergentes co
 Redes Definidas por Software (SDN) y la Inteligencia Artificial (IA).
 
 == Formulación del problema
-La Universidad Nacional de San Antonio Abad del Cusco (UNSAAC), particularmente en la
-Escuela Profesional de Ingeniería Informática y de Sistemas, presenta una asignación
-inadecuada del ancho de banda en su red institucional, debido a la falta de mecanismos
-automatizados que gestionen el tráfico de manera eficiente. Generando congestión,
-priorización incorrecta del tráfico y limitaciones en el acceso a servicios académicos
-esenciales, afectando la calidad del proceso formativo y el aprovechamiento de los
-recursos tecnológicos disponibles.
+=== Problema general
+La red institucional del pabellon universitario presenta una asignación inadecuada del
+ancho de banda que ralentiza la velocidad de navegación para gran parte de usuarios.
+Esto se debe a la falta de mecanismos automatizados que gestionen el tráfico de manera
+eficiente. Generando congestión, priorización incorrecta del tráfico y limitaciones en
+el acceso a servicios académicos esenciales, afectando la calidad del proceso formativo
+y el aprovechamiento de los recursos tecnológicos disponibles.
 
-+ ¿Qué factores influyen en la saturación y el uso ineficiente del ancho de banda dentro
-  de la red universitaria?
+=== Problemas especificos
++ ¿Qué factores influyen en la saturación dentro de la red universitaria?
 
 + ¿Qué criterios pueden emplearse para diferenciar el tráfico académico del recreativo
   en tiempo real?
@@ -125,9 +125,10 @@ recursos tecnológicos disponibles.
 + ¿Cómo podrían las Redes Definidas por Software (SDN) contribuir a una gestión más
   flexible y dinámica del ancho de banda?
 
+/*
 + ¿De qué manera puede integrarse la Inteligencia Artificial (IA) para predecir y
   asignar recursos de red según la demanda y las prioridades académicas?
 
 + ¿Qué impacto tendría la implementación de un sistema inteligente de gestión del ancho
   de banda en la calidad del servicio educativo de la UNSAAC?
-
+*/
