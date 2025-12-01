@@ -15,13 +15,13 @@ educativo.
 == Objetivos Específicos
 
 - Analizar los factores que generan saturación y provocan un uso ineficiente del ancho
-  de banda en la red institucional de la UNSAAC.
+  de banda en la red institucional.
 
 - Identificar los criterios y parámetros que permitan distinguir el tráfico académico
   del recreativo en tiempo real.
 
 - Proponer y diseñar una arquitectura de red basada en SDN que habilite una gestión
-  dinámica, centralizada y adaptable del ancho de banda.
+  dinámica, centralizada y adaptable del ancho de banda usando ML.
 
 /*
 - Integrar técnicas de Inteligencia Artificial para la predicción de la demanda y la

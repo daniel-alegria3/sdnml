@@ -122,8 +122,8 @@ y el aprovechamiento de los recursos tecnológicos disponibles.
 + ¿Qué criterios pueden emplearse para diferenciar el tráfico académico del recreativo
   en tiempo real?
 
-+ ¿Cómo podrían las Redes Definidas por Software (SDN) contribuir a una gestión más
-  flexible y dinámica del ancho de banda?
++ ¿Cómo podrían las Redes Definidas por Software (SDN), usando ML, contribuir a una
+  gestión más flexible y dinámica del ancho de banda?
 
 /*
 + ¿De qué manera puede integrarse la Inteligencia Artificial (IA) para predecir y
