@@ -22,6 +22,8 @@
 #include "secciones/planteamiento_problema.typ"
 #include "secciones/justificacion.typ"
 #include "secciones/objetivos.typ"
+// #include "secciones/hipotesis.typ"
+#include "secciones/alcance_limitaciones.typ"
 
 #pagebreak()
 #bibliography("refs.bib", full: true)

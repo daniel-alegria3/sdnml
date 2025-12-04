@@ -1,5 +1,5 @@
 = Justificación
-Esta investigación propone implementar un sistema de asignación inteligente de ancho de
+Esta investigación propone diseñar un sistema de asignación inteligente de ancho de
 banda que optimice la deplorable gestión de la lenta red universitaria. A diferencia de
 los métodos tradicionales basados en configuraciones estáticas, se integrara Redes
 Definidas por Software (SDN) e Inteligencia Artificial para lograr una gestión dinámica
@@ -8,9 +8,9 @@ red, mientras que la IA permite analizar patrones de uso y tomar decisiones en t
 real.
 
 El impacto social se enfoca en mejorar las condiciones de conectividad para estudiantes,
-docentes e investigadores de la facultad de Ingenieria Informatica y de Sistemas de la
-UNSAAC. Al garantizar que actividades académicas prioritarias —subida de archivos
-virtuales, evaluaciones en línea, acceso a repositorios científicos— dispongan de
+docentes e investigadores de la facultad de Ingeniería Informática y de Sistemas de la
+UNSAAC. Al garantizar que actividades académicas prioritarias (subida de archivos
+virtuales, evaluaciones en línea, acceso a repositorios científicos) dispongan de
 recursos adecuados, se mejora directamente la calidad del servicio educativo. Este
 trabajo puede servir como precedente para otras instituciones que enfrentan
 problemáticas similares, facilitando el estudio de tendencias de uso de red que apoyen
